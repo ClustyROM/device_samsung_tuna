@@ -22,6 +22,8 @@
 
 LOCAL_PATH := $(call my-dir)
 
+include $(CLEAR_VARS)
+
 ifeq ($(TARGET_DEVICE), tuna)
 
 ifneq ($(TARGET_SIMULATOR),true)
